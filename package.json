@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "8.x"
+  },
   "name": "NeteaseCloudMusicApi",
   "version": "2.20.2",
   "description": "网易云音乐 NodeJS 版 API",
