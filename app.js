@@ -85,7 +85,7 @@ fs.readdirSync(path.resolve(__dirname, 'router'))
           })
     }
 
-    app.use(route, Wrap(require('./router/' + file)))
+    app.use(`/api${route}`, Wrap(require('./router/' + file)))
   })
 
 const port = process.env.PORT || 3000
