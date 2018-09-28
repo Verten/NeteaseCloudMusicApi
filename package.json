@@ -3,7 +3,7 @@
     "node": "8.x"
   },
   "name": "NeteaseCloudMusicApi",
-  "version": "2.20.3",
+  "version": "2.20.4",
   "description": "网易云音乐 NodeJS 版 API",
   "scripts": {
     "start": "node app.js",
